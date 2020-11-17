@@ -1,0 +1,3 @@
+include ':rfxcomdriver'
+include ':app'
+rootProject.name = "RFXcomDriver"
