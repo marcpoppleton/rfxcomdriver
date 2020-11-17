@@ -26,7 +26,7 @@ android {
         minSdkVersion 27
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "0.1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -57,7 +57,7 @@ dependencies {
 //region Publish to jCenter
 def libGroupId = 'com.marcpoppleton'
 def libArtifactId = 'rfxcomdriver'
-def libVersion = '1.0.0'
+def libVersion = '0.1.0'
 def libDesc = 'This is a kotlin library allowing integration of RFXCom USB devices in Android Things projects.'
 def libLicenses = ['Apache-2.0']
 def libVCSUrl = 'https://github.com/marcpoppleton/rfxcomdriver.git'
