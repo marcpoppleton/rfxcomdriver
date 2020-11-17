@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 Depencencies
 --------
 
-The library currently relies on the [USBSerial](https://github.com/felHR85/UsbSerial) library, this should be removed in future versions.
+The library currently relies on the Java [USBSerial](https://github.com/felHR85/UsbSerial) library, this should be removed in a future version once a Kotlin version will be done. This is work in progress!
 
 License
 --------
