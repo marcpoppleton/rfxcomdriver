@@ -22,7 +22,7 @@ Usage
 Add the dependency to your application's build.gradle file:
 
 ```groovy
-implementation 'com.marcpoppleton:rfxcomddriver:0.1.0'
+implementation 'com.marcpoppleton:rfxcomddriver:0.1.1'
 ```
 
 In your application's code you can use an RFXCom USB Antenna device to read data from RF433 devices supported by the RFXCom device.
