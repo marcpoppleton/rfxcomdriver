@@ -26,8 +26,11 @@ implementation 'com.marcpoppleton:rfxcomddriver:0.1.0'
 ```
 
 In your application's code you can use an RFXCom USB Antenna device to read data from RF433 devices supported by the RFXCom device.
+
 The library is straightforward to use. It relies on LiveData to provide data to your app. All you have to do is create an instance of RFXCom providing it the context. It will return a LiveData which can then be observed.
+
 The library manages connection and disconnection of the USB device and will connect/disconnect accordingly to the observing activity's lifecycle.
+
 The following example will write on the logcat all sensors data received by a RFXCom Antenna connected on any USB port of the device running Android Things.
 ```kotlin
 class MainActivity : AppCompatActivity() {
