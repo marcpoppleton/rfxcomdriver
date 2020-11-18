@@ -22,7 +22,7 @@ Usage
 Add the dependency to your application's build.gradle file:
 
 ```groovy
-implementation 'com.marcpoppleton:rfxcomddriver:0.1.0'
+implementation 'com.marcpoppleton:rfxcomddriver:0.1.1'
 ```
 
 In your application's code you can use an RFXCom USB Antenna device to read data from RF433 devices supported by the RFXCom device.
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 Depencencies
 --------
 
-The library currently relies on the [USBSerial](https://github.com/felHR85/UsbSerial) library, this should be removed in future versions.
+The library currently relies on the Java [USBSerial](https://github.com/felHR85/UsbSerial) library, this should be removed in a future version once a simplified Kotlin version is be done (we only need a small subset of the lib). This is work in progress!
 
 License
 --------
