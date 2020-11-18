@@ -1,3 +1,10 @@
+/**
+ Software Name : UsbSerial
+ SPDX-FileCopyrightText: Copyright (c) 2014 Felipe Herranz
+ SPDX-License-Identifier: MIT License
+ This software is distributed under the MIT licence.
+ Author: Felipe Herranz et al.
+ */
 /*
  * Based in the CH340x driver made by Andreas Butti (https://github.com/mik3y/usb-serial-for-android/blob/master/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/Ch34xSerialDriver.java)
  * Thanks to Paul Alcock for provide me with one of those Arduino nano clones!!!
